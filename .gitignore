@@ -3,3 +3,4 @@
 .entire/tmp/
 .entire/metadata/
 .entire/logs/
+node_modules/
