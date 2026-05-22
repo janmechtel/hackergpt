@@ -22,7 +22,7 @@ html, body {
   background: var(--bg);
   color: var(--green);
   font-family: var(--font-mono);
-  font-size: 14px;
+  font-size: 17.5px;
   line-height: 1.5;
 }
 
@@ -34,7 +34,7 @@ html, body {
   width: 100%;
   height: 100%;
   z-index: 0;
-  opacity: 0.15;
+  opacity: 0.3;
 }
 
 /* ===== CRT OVERLAY ===== */
@@ -95,7 +95,7 @@ html, body {
 
 .boot-screen pre {
   color: var(--green);
-  font-size: 13px;
+  font-size: 16.25px;
   text-shadow: 0 0 5px var(--green-glow);
   white-space: pre-wrap;
   max-width: 700px;
@@ -109,9 +109,8 @@ html, body {
   display: flex;
   flex-direction: column;
   height: 100vh;
-  max-width: 900px;
-  margin: 0 auto;
-  padding: 0 1rem;
+  margin: 0 10%;
+  padding: 0;
 }
 
 .app.hidden {
@@ -135,7 +134,7 @@ html, body {
 }
 
 .skull {
-  font-size: 1.5rem;
+  font-size: 1.875rem;
   animation: pulse 2s infinite;
 }
 
@@ -145,7 +144,7 @@ html, body {
 }
 
 .header h1 {
-  font-size: 1.4rem;
+  font-size: 1.75rem;
   font-weight: bold;
   letter-spacing: 2px;
   text-shadow: 0 0 10px var(--green-glow), 0 0 20px var(--green-glow);
@@ -200,7 +199,7 @@ html, body {
   display: flex;
   align-items: center;
   gap: 0.5rem;
-  font-size: 0.75rem;
+  font-size: 0.9375rem;
   color: var(--green-dim);
 }
 
@@ -241,7 +240,7 @@ html, body {
 /* ===== MESSAGES ===== */
 .system-msg {
   color: var(--green-dim);
-  font-size: 0.8rem;
+  font-size: 1rem;
   padding: 0.5rem 1rem;
   border-left: 2px solid var(--green-dim);
 }
@@ -280,7 +279,7 @@ html, body {
 
 .message.assistant .msg-header {
   color: var(--cyan);
-  font-size: 0.75rem;
+  font-size: 0.9375rem;
   margin-bottom: 0.4rem;
   font-weight: bold;
 }
@@ -335,7 +334,7 @@ html, body {
   color: var(--cyan);
   font-weight: bold;
   white-space: nowrap;
-  font-size: 0.85rem;
+  font-size: 1.0625rem;
 }
 
 #user-input {
@@ -345,7 +344,7 @@ html, body {
   outline: none;
   color: var(--green);
   font-family: var(--font-mono);
-  font-size: 0.9rem;
+  font-size: 1.125rem;
   resize: none;
   line-height: 1.4;
   caret-color: var(--green);
@@ -360,7 +359,7 @@ html, body {
   border: 1px solid var(--green-dim);
   color: var(--green);
   font-family: var(--font-mono);
-  font-size: 1.2rem;
+  font-size: 1.5rem;
   padding: 0.5rem 1rem;
   border-radius: 4px;
   cursor: pointer;
@@ -392,7 +391,7 @@ html, body {
 /* ===== RESPONSIVE ===== */
 @media (max-width: 600px) {
   .header h1 {
-    font-size: 1rem;
+    font-size: 1.25rem;
   }
   .prompt-prefix {
     display: none;

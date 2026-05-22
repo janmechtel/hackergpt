@@ -13,6 +13,10 @@ const bootText = document.getElementById('boot-text');
 const app = document.getElementById('app');
 const chatContainer = document.getElementById('chat-container');
 const userInput = document.getElementById('user-input');
+const statusText = document.getElementById('status-text');
+
+// Display model name in header
+statusText.textContent = MODEL.split('/').pop().replace(':free', '').toUpperCase();
 const sendBtn = document.getElementById('send-btn');
 
 // ===== BOOT SEQUENCE =====
