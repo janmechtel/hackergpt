@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>H4CK3R-GPT // NEURAL INTERFACE</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>💀</text></svg>">
+</head>
+<body>
+  <canvas id="matrix-bg"></canvas>
+  <div class="crt-overlay"></div>
+  <div class="scanlines"></div>
+
+  <div id="boot-screen" class="boot-screen">
+    <pre id="boot-text"></pre>
+  </div>
+
+  <div id="app" class="app hidden">
+    <header class="header">
+      <div class="header-left">
+        <span class="skull">☠</span>
+        <h1 class="glitch" data-text="H4CK3R-GPT">H4CK3R-GPT</h1>
+      </div>
+      <div class="header-right">
+        <span class="status-dot"></span>
+        <span class="status-text">NEURAL LINK ACTIVE</span>
+      </div>
+    </header>
+
+    <main class="chat-container" id="chat-container">
+      <div class="system-msg">
+        <span class="prefix">[SYSTEM]</span> Neural interface initialized. All queries are encrypted end-to-end. Type your message below.
+      </div>
+    </main>
+
+    <footer class="input-area">
+      <div class="input-wrapper">
+        <span class="prompt-prefix">root@hackergpt:~$</span>
+        <textarea id="user-input" placeholder="Enter command..." rows="1" autofocus></textarea>
+      </div>
+      <button id="send-btn" class="send-btn" title="Execute">
+        <span>⏎</span>
+      </button>
+    </footer>
+  </div>
+
+  <script src="matrix.js"></script>
+  <script src="main.js"></script>
+</body>
+</html>
